@@ -16,6 +16,7 @@ module.exports = {
       if (err) return callback(err, null)
       callback(null, res) // Return callback
     })
+    console.log("User created !")
   },
   // get: (username, callback) => {
   //   // TODO create this method
